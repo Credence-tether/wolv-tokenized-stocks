@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "framework": null,
+  "installCommand": "pnpm install --frozen-lockfile",
+  "buildCommand": "pnpm build:web",
+  "outputDirectory": "dist",
+  "functions": {
+    "api/wolv/[...path].ts": {
+      "maxDuration": 30
+    }
+  }
+}

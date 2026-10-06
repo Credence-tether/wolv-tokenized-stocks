@@ -1,0 +1,18 @@
+export const WOLV = {
+  bg: "#030711",
+  panel: "#07111D",
+  panel2: "#0A1726",
+  panel3: "#0D1D2D",
+  border: "#18334A",
+  borderBright: "#25516A",
+  text: "#EDF5FC",
+  muted: "#879CB0",
+  faint: "#52677A",
+  amber: "#FFC400",
+  amberSoft: "#332A06",
+  green: "#23D6A2",
+  greenSoft: "#062A24",
+  red: "#FF6577",
+  blue: "#5DB8FF",
+  radius: 18,
+} as const;
